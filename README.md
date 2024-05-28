@@ -22,14 +22,10 @@ This presentation explores the phenomenon of crosstalk in signal-return loops, e
 ## Introduction
 Crosstalk in high-speed digital circuits can severely affect signal integrity. Understanding its causes and implementing effective design strategies is crucial for maintaining performance in electronic systems.
 
-## Agenda
-1. What is Crosstalk?
-2. Different Return Path Geometries
-3. Varying Number of Aggressors
-4. Best Design Practices
 
 ## Crosstalk
 Crosstalk occurs when changing currents in aggressor loops induce voltages in nearby victim lines due to mutual inductance. The magnitude of crosstalk is influenced by the number of switching aggressors and the geometry of the return paths.
+![Crosstalk](https://github.com/Shri2401/Optimized-Board-Geometry-for-Minimal-Crosstalk/blob/main/pictures/crosstalk.png)
 
 ## Return Path Geometries
 Different return path configurations can significantly impact crosstalk levels. This section examines shared and separate return traces.
