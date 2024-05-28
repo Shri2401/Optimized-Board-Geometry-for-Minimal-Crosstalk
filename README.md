@@ -72,8 +72,6 @@ Increasing the number of simultaneously switching aggressors amplifies crosstalk
 ### Continuous Return Plane
 - Crosstalk: 163 mV.
 
-![Effect of Multiple Aggressors](images/multiple_aggressors.png)
-
 ## Best Design Practices
 To minimize crosstalk, consider the following guidelines:
 1. **Separate Return Paths:** Avoid sharing return paths between aggressor and victim loops.
@@ -81,7 +79,6 @@ To minimize crosstalk, consider the following guidelines:
 3. **Limit Simultaneously Switching Signals:** Minimize the number of signals switching at the same time.
 4. **Use Continuous Return Plane:** Implement a continuous return plane on PCBs to lower self-inductance and mutual inductance.
 
-![Best Design Practices](images/best_design_practices.png)
 
 ## Questions
 If you have any questions about the content or implementation strategies, please feel free to contact me.
